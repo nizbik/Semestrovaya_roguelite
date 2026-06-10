@@ -258,7 +258,7 @@ static void ui_render(HWND hwnd, GameState* gs) {
 
         SetTextColor(g_hMemDC, RGB(150, 150, 150));
         TextOutA(g_hMemDC, mx + 40, my + mh - 30,
-            "UP/DOWN: Select | ENTER: Buy | Q: Close", 41);
+            "UP/DOWN: Select | ENTER: Buy | Q: Close", 40);
     }
 
     if (gs->game_over) {
